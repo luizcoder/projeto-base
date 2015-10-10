@@ -9,14 +9,17 @@ A estrutura aqui definida contempla 3 divisões, estas são:
   - FrontEnd 
     
 Sendo estes estruturados da seguinte forma:
- - www [dados das aplicações]
+ 
+- www [dados das aplicações]
     - api
     - frontend
     - admin
+
 - sites [virtualhosts]
     - api.conf
     - frontend.conf
     - admin.conf
+
 - logs [logs do apache]
     -  error.log
     -  access.log
@@ -70,6 +73,7 @@ $ sudo service apache2 reload
 
 License
 ----
-Copyright © Luizcoder \
+Copyright © Luizcoder
+
 Licensed under the MIT license.
 
